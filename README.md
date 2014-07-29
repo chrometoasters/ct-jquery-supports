@@ -15,3 +15,8 @@ Note: if you wish to customise where Bower puts installed components, you may ad
         {
             "directory" : "PATH/TO/COMPONENTS"
         }
+
+## Usage
+
+        CT_SUPPORTS.nthchild(); // returns true if :nth-child is supported
+        CT_SUPPORTS.supported(); // returns true if the browser supported

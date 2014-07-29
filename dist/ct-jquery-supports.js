@@ -5,7 +5,7 @@
 
 // This file
 /*jshint browser:true, jquery:true, strict:true, devel:true */
-// globals prevents an error when referencing variables/functions which are concatenated into outward-bound-vendor.combined.js
+// globals prevents an error when referencing variables/functions which are concatenated into projectname.vendor.combined.js
 /*globals platform:true */
 
 var CT_SUPPORTS = null; // global
