@@ -1,0 +1,19 @@
+{
+  "name": "ct-jquery-supports",
+  "version": "1.0.0",
+  "homepage": "https://github.com/chrometoasters/ct-jquery-supports",
+  "authors": [
+    "dotherightthing <dan.smith@chrometoaster.com>"
+  ],
+  "description": "User-agent based detection for features not detected by Modernizr ",
+  "main": "README.md",
+  "license": "All rights reserved",
+  "dependencies": {
+    "jquery": "1.10.1",
+    "platform.js": "https://github.com/bestiejs/platform.js.git#v1.0.0"
+  },
+  "ignore": [
+    "bower_components"
+  ],
+  "private": true
+}
