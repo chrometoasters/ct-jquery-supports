@@ -85,10 +85,9 @@ var CT_SUPPORTS = null; // global
                 else if ( platform_version === 10 ) {
                     $html.addClass('ie10');
                 }
-                // https://github.com/bestiejs/platform.js/issues/34
-                // else if ( platform_version === 11 ) {
-                //     $html.addClass('ie11');
-                // }
+                else if ( platform_version === 11 ) {
+                     $html.addClass('ie11');
+                }
             }
             else if ( platform_name === 'firefox' ) {
                 $html.addClass('firefox');
