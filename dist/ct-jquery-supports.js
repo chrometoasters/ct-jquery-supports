@@ -118,10 +118,15 @@ var CT_SUPPORTS = null; // global
             CT_SUPPORTS.is.iphone = platform_product === 'iphone';
             CT_SUPPORTS.is.ipad = platform_product === 'ipad';
             CT_SUPPORTS.is.ipod = platform_product === 'ipod';
-            CT_SUPPORTS.is.touchscreen = CT_SUPPORTS.is.iphone || CT_SUPPORTS.is.ipad || CT_SUPPORTS.is.ipod || CT_SUPPORTS.is.android;
+            CT_SUPPORTS.is.winphone = platform_family === 'Windows Phone';
+            CT_SUPPORTS.is.touchscreen = CT_SUPPORTS.is.iphone || CT_SUPPORTS.is.ipad || CT_SUPPORTS.is.ipod || CT_SUPPORTS.is.android || CT_SUPPORTS.is.winphone;
 
             if ( CT_SUPPORTS.is.ios ) {
                 $('html').addClass('ios');
+            }
+
+            if ( CT_SUPPORTS.is.touchscreen ) {
+                $('html').addClass('is-touchscreen');
             }
 
             return true;
